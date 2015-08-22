@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'akbar';
+  src: url('akbar.ttf')  format('truetype');
+}
+
+body{
+    background-color: #7BDD85;
+     font-family: 'akbar',  sans-serif;
+}
+
+.huge{
+    width: 105px;
+    margin:0 auto;
+    padding: 60px;
+}
 .container{
     width: 310px;
     height: 310px;
@@ -371,4 +386,58 @@
     transform: rotate(-92deg)skew(1deg,13deg);
     border-radius: 14px;
     border: 2px solid;
+}
+
+.neck{
+    position: absolute;
+    width: 140px;
+    height: 53px;
+    top: 266px;
+    left: 76px;
+    background-color: #FFD910;
+    z-index: -99;
+    border-radius: 149px/53px;
+    border: 7px solid;
+}
+
+.body{
+    position: absolute;
+    background-color: #1791FF;
+    width: 180px;
+    height: 97px;
+    left: 60px;
+    z-index: -999;
+    border-radius: 40px;
+    top: 247px;
+    border: 5px solid;
+}
+
+.maggie{
+    position: relative;
+}
+.corner{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-radius: 50%;
+    top: -2px;
+    left: 75px;
+    z-index: 99;
+    border: 12px solid black;
+    border-top: 12px solid transparent;
+    transform: rotate(22deg);
+    border-left: 12px solid transparent;
+}
+.corner2{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-radius: 50%;
+    top: -8px;
+    left: 194px;
+    z-index: 99;
+    border: 12px solid black;
+    border-top: 12px solid transparent;
+    transform: rotate(64deg);
+    border-left: 12px solid transparent;
 }
