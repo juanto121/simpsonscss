@@ -441,3 +441,10 @@ body{
     transform: rotate(64deg);
     border-left: 12px solid transparent;
 }
+
+.plug{
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    display: inline-block;
+}
